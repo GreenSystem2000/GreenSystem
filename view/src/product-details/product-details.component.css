@@ -1,0 +1,14 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+.bg-black {
+    background-color: #000000!important;
+}
+
+.details-card {
+    box-shadow: 0px 0px 1px #aaa;
+    background-color: #fff
+}
+
+body {
+    background-color: #eee
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalizar compra</title>
+</head>
+<body>
+    <div class="container mt-5 mb-5">
+        <div class="d-flex justify-content-center h-100" style="margin-top: 5rem;">
+            <div class="card" style="width: 42rem;">
+                <div class="card-body">
+                    <h5 class="card-title mb-5">Preencha os seus dados</h5>
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="nome">Nome completo</label>
+                                <input type="text" class="form-control" id="nome" placeholder="Nome completo" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="cep">CEP</label>
+                                <input type="text" class="form-control" id="cep" placeholder="CEP" maxlength="9" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="cpf">CPF</label>
+                                <input type="text" class="form-control" id="cpf" placeholder="CPF" maxlength="14" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="estado">Estado</label>
+                                <input type="text" class="form-control" id="estado" placeholder="Estado" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="cidade">Cidade</label>
+                                <input type="text" class="form-control" id="cidade" placeholder="Cidade" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="bairro">Bairro</label>
+                                <input type="text" class="form-control" id="bairro" placeholder="Bairro" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="rua">Rua/Avenida</label>
+                                <input type="text" class="form-control" id="rua" placeholder="Rua/Avenida" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="numero">Número</label>
+                                <input type="text" class="form-control" id="numero" placeholder="Número" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="apartamento">Andar/apartamento (opcional)</label>
+                                <input type="text" class="form-control" id="apartamento" placeholder="Andar/apartamento" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="fone">Telefone de contato</label>
+                                <input type="text" class="form-control" id="fone" placeholder="Tel" maxlength="13" required>
+                            </div>
+                        </div>
+                    </form>
+                    <button class="btn btn-primary mt-5 p-2 pl-4 pr-4" id="finalizar-compra" disabled>Finalizar compra</button>
+                    <button class="btn btn-primary mt-5 p-2 pl-4 pr-4" id="baixar-boleto" disabled>Baixar boleto</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="display: none;" id="container"></div>
+</body>
+</html>

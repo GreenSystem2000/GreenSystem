@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-black">
+        <a class="navbar-brand text-success" href="#">GreenSystem</a>
+    </nav>
+    <div class="container mt-5 mb-5">
+        <div class="d-flex justify-content-center h-100" style="margin-top: 5rem;">
+            <div class="card" style="width: 42rem;">
+                <div class="card-body">
+                    <h5 class="card-title mb-5">Preencha os seus dados</h5>
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="nome">Nome</label>
+                                <input type="text" class="form-control" id="nome" placeholder="Nome" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="sobrenome">Sobrenome</label>
+                                <input type="text" class="form-control" id="sobrenome" placeholder="Sobrenome" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="cpf">Usuário</label>
+                                <input type="text" class="form-control" id="usuario" placeholder="Usuário" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="email">E-mail</label>
+                                <input type="email" class="form-control" id="email" placeholder="E-mail" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="senha">Senha</label>
+                                <input type="password" class="form-control" id="senha" placeholder="Senha" required>
+                            </div>
+                        </div>
+                    </form>
+                    <button class="btn btn-primary mt-5 p-2 pl-4 pr-4 disabled">Cadastrar-se</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

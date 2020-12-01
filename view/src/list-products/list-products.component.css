@@ -1,0 +1,23 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+.carousel-item {
+    transition: -webkit-transform 0.6s ease;
+}
+  
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+    display: block;
+}
+
+.bg-black {
+    background-color: #000000!important;
+}
+
+.card {
+    margin-top: 50px;
+}
+
+body {
+    overflow-x: hidden;
+}

@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "noImplicitAny": true,
+      "removeComments": true,
+      "sourceMap": false,
+      "target": "ESNext",
+      "experimentalDecorators": true
+    },
+    "include": [
+      "src/**/*.ts"
+    ]
+}

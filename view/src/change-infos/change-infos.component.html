@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterar informações</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-black">
+        <a class="navbar-brand text-success" href="#">GreenSystem</a>
+    </nav>
+    <div class="container mt-5 mb-5">
+        <div class="d-flex justify-content-center h-100" style="margin-top: 5rem;">
+            <div class="card" style="width: 30rem;">
+                <div class="card-body">
+                    <h5 class="card-title mb-5">Suas informações</h5>
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <label for="nome">Nome</label>
+                                <input type="text" class="form-control user-input" id="nome" placeholder="Nome" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <label for="sobrenome">Sobrenome</label>
+                                <input type="text" class="form-control user-input" id="sobrenome" placeholder="Sobrenome" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <label for="cpf">Usuário</label>
+                                <input type="text" class="form-control user-input" id="usuario" placeholder="Usuário" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <label for="email">E-mail</label>
+                                <input type="email" class="form-control user-input" id="email" placeholder="E-mail" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <label for="senha">Senha</label>
+                                <input type="password" class="form-control user-input" id="senha" placeholder="Senha" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <label for="senha">Nova senha</label>
+                                <input type="password" class="form-control" id="nova-senha" placeholder="Nova senha" required>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="alert alert-danger d-none" role="alert">Senha inválida!</div>
+                    <button class="btn btn-success mt-5 p-2 pl-4 pr-4" disabled>Salvar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
